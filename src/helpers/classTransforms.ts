@@ -9,7 +9,7 @@ const dashCase = (className: string): string =>
     firstLetter.toUpperCase(),
   );
 
-const makeHaste = (className: string): string => className.replace(/\//g, '-');
+const makeHaste = (className: string): string => className.replace('-', '/');
 
 export const transformClasses =
   (camelCaseOption?: ClassnameTransformOptions) =>
