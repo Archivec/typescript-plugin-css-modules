@@ -37,7 +37,8 @@ export type ClassnameTransformOptions =
   | 'camelCase'
   | 'camelCaseOnly'
   | 'dashes'
-  | 'dashesOnly';
+  | 'dashesOnly'
+  | 'makeHaste';
 
 export interface CustomRendererOptions {
   fileName: string;
