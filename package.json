@@ -5,10 +5,10 @@
   "author": "Brody McKee <mrmckeb@hotmail.com>",
   "license": "MIT",
   "description": "CSS modules support for TypeScript",
-  "homepage": "https://github.com/mrmckeb/typescript-plugin-css-modules",
+  "homepage": "https://github.com/Archivec/typescript-plugin-css-modules",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrmckeb/typescript-plugin-css-modules"
+    "url": "https://github.com/Archivec/typescript-plugin-css-modules"
   },
   "keywords": [
     "css",
