@@ -9,6 +9,8 @@ const dashCase = (className: string): string =>
     firstLetter.toUpperCase(),
   );
 
+const makeHaste = (className: string): string => className.replace(/\//g, '-');
+
 export const transformClasses =
   (camelCaseOption?: ClassnameTransformOptions) =>
   (className: string): string[] => {
@@ -37,6 +39,9 @@ export const transformClasses =
       case 'dashesOnly':
         entries.push(dashCase(className));
         break;
+      case 'dashesOnly':
+				entries.push(dashCase(className));
+				break;
       case 'asIs':
       default:
         entries.push(className);
