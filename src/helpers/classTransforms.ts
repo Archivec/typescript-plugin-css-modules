@@ -39,8 +39,8 @@ export const transformClasses =
       case 'dashesOnly':
         entries.push(dashCase(className));
         break;
-      case 'dashesOnly':
-				entries.push(dashCase(className));
+      case 'makeHaste':
+				entries.push(makeHaste(className));
 				break;
       case 'asIs':
       default:
