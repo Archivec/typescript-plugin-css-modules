@@ -28,6 +28,7 @@
     "build": "rm -rf ./lib && tsc",
     "lint": "eslint --max-warnings 0 . && yarn prettier -c .",
     "prepublishOnly": "yarn build",
+    "prepare": "yarn build",
     "test": "jest ./src"
   },
   "husky": {
